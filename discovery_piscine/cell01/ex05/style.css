@@ -1,0 +1,21 @@
+table
+{
+  	width: 1000px;
+	height: 100px;
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+  	border: 1px solid black;
+}
+
+.pink
+{
+	background-color: pink;
+}
+
+.bleu
+{
+	color: LightGray;
+	background-color: blue;
+}
