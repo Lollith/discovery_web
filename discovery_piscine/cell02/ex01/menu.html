@@ -1,18 +1,32 @@
-<!DOCTYPE html><html>
-	<html>
-		<head>
-			<meta charset="utf-8"
-			<title>MENU</title>
-			<link rel="stylesheet" href="menu.css" />
-		</head>
+<!DOCTYPE html>
+<html>
 
-		<body>
-			<nav>
-				<ul>
-					<li><a href="#">Articles</a></li>
-					<li><a href="#">À propos</a></li>
-					<li><a href="#">Contactez-nous</a></li>
-				</ul>
-			</nav>
-		</body>
-	</html>	
+<head>
+	<meta charset="utf-8" />
+	<title>SNCF</title>
+	<link rel="stylesheet" href="menu.css" />
+</head>
+<body>
+
+<div id="conteneur">	
+<nav>
+	<ul>
+		<!-- Début du sous-menu déroulant -->
+		<li><a href="#">Menu des roulants</a>
+			<ul>
+				<li><a href="#">Sandwich poulet</a></li>
+				<li><a href="#">Sandwich thon</a></li>
+				<li><a href="#">Sandwich legume</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<select id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">thon</option>
+    <option value="cat">poulet</option>
+    <option value="hamster">vegetarien</option>
+</select>
+</div>
+</body>
