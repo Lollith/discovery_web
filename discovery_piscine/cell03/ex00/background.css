@@ -1,19 +1,15 @@
-.bouton
+.boutton1
 {
-	width: 50px;
+	width: 100px;
 	border: 4px double black;
-	text-align: center;
 	height: 50px;
-	padding: 10px 30px;
 	color: black;
-	background: pink;
-	padding: 100px 100px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.bouton:hover {
-  background-color: green;
+.boutton1:hover {
+  background-color: pink;
 }
 
-.bouton:active
-{
-	bddackground-color:black;
+body{
+	background-color: aqua;
 }
